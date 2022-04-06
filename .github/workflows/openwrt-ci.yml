@@ -54,9 +54,9 @@ jobs:
         run: make defconfig
 
       - name: Make download
-        run: 
-        rm -f ./.config*
-        touch ./.config
+        run: |
+          rm -f ./.config*
+          touch ./.config
               #
               # ========================固件定制部分========================
               # 
